@@ -1,0 +1,347 @@
+.container-base{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    line-height: 1.1;
+    font-family: Helvetica;
+    background-color: white;
+    box-sizing: border-box;
+    height: 100%;
+    max-width: 100%;
+}
+
+.bg-product{
+    position: absolute;
+    height: 95%;
+    width: 100%;
+    top: 1%;
+    left: 0;
+}
+.product-1{
+    top: 1.26263%;
+    left: 1.63399%;
+    width: 270px;
+    height: 390px;
+}
+.bg-products{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.product-img{
+    top: 1.26263%;
+    left: 7%;
+    width: 200px;
+    height: 400px;
+    margin-left:20px;
+    position: absolute;
+}
+.itm-img {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+  }
+
+.img-product-num{
+    top: 49%;
+    left: 45.9%;
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    padding-top: 5px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    background-color: #005184;
+}
+.product-index{
+    top: 13.25%;
+    left: 53.26797%;
+    width: 30px;
+    height: 19.8px;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+
+.product-title {
+    width: 246px;
+    height: 19.8px;
+    position: absolute;
+    overflow: hidden;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: bold;
+    top: 13.25%;
+    left: 57.35294%;
+}
+
+.product-desc {
+    width: 246px;
+    max-height: 44.352px;
+    position: absolute;
+    overflow: hidden;
+    font-size: 12px;
+    top: 15.75%;
+    left: 57.35294%;
+  }
+ .product-currency {
+    width: 40px;
+    height: 17.424px;
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 12px;
+    top: 21.35%;
+    left: 57.35294%;
+  }
+.product-price {
+    width: 196px;
+    height: 17.424px;
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 12px;
+    font-weight: bold;
+    top: 21.35%;
+    left: 63.0719%;
+  }
+   .product-sku-title {
+    position: absolute;
+    top: 23.55%;
+    left: 57.35294%;
+    width: 33.66px;
+    height: 22.572px;
+    overflow: hidden;
+    font-size: 12px;
+  }
+.product-sku {
+    top: 23.55%;
+    left: 63.0719%;
+    width: 196px;
+    height: 17.424px;
+    position: absolute;
+    overflow: hidden;
+    font-size: 12px;
+  }
+
+
+
+  
+/* auto settings */
+.blue{
+    color: #005184;
+}
+.scale {
+    transform-origin: left top;
+    transform: scale(0.94608);
+    display: block;
+    cursor: pointer;
+}
+/* end */
+.product-2 .product-img2 {
+    position:absolute;
+    top: 58%;
+    left: 5%;
+    width: 250px;
+    height: 350px;
+    padding:-10px;
+  }
+.itm-img2 {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+  }
+  .img-product-num2{
+    top: 54%;
+    left: 45.9%;
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    padding-top: 5px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    background-color: #005184;
+}
+
+.product-index2{
+    top: 26.5%;
+    left: 53.26797%;
+    width: 30px;
+    height: 19.8px;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.product-title2 {
+    width: 246px;
+    height: 19.8px;
+    position: absolute;
+    overflow: hidden;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: bold;
+    top: 26.5%;
+    left: 57.35294%;
+}
+.product-desc2 {
+    width: 246px;
+    max-height: 44.352px;
+    position: absolute;
+    overflow: hidden;
+    font-size: 12px;
+    top: 29%;
+    left: 57.35294%;
+  }
+
+.product-currency2 {
+    width: 40px;
+    height: 17.424px;
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 12px;
+    top: 34.6%;
+    left: 57.35294%;
+  }
+  .product-price2 {
+    width: 40px;
+    height: 17.424px;
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 12px;
+    top: 34.6%;
+    left: 63.0719%;
+  }
+
+.product-sku-title2 {
+    width: 40px;
+    height: 17.424px;
+    position: absolute;
+    overflow: hidden;
+    font-size: 12px;
+    top: 36.8%;
+    left: 57.35294%;
+  }
+  .product-sku2 {
+    width: 196px;
+    height: 17.424px;
+    position: absolute;
+    overflow: hidden;
+    font-size: 12px;
+    top: 36.8%;
+    left: 63.0719%;
+  }
+  .product-3 .product-img3 {
+    position:absolute;
+    top: 58%;
+    left: 54%;
+    width: 250px;
+    height: 350px;
+  }
+  .itm-img3 {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+  }
+  .img-product-num3{
+    top: 54%;
+    left: 51.63399%;
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    padding-top: 5px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    background-color: #005184;
+}
+.product-index3{
+    top: 39.75%;
+    left: 53.26797%;
+    width: 30px;
+    height: 19.8px;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.product-title3 {
+    width: 246px;
+    height: 19.8px;
+    position: absolute;
+    overflow: hidden;
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: bold;
+    top: 39.75%;
+    left: 57.35294%;
+}
+.product-desc3 {
+    width: 246px;
+    max-height: 44.352px;
+    position: absolute;
+    overflow: hidden;
+    font-size: 12px;
+    top: 42.25%;
+    left: 57.35294%;
+  }
+
+.product-currency3 {
+    width: 40px;
+    height: 17.424px;
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 12px;
+    top: 47.85%;
+    left: 57.35294%;
+  }
+
+  .product-price3 {
+    width: 40px;
+    height: 17.424px;
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 12px;
+    top: 47.85%;
+    left: 63.0719%;
+  }
+
+.product-sku-title3 {
+    width: 40px;
+    height: 17.424px;
+    position: absolute;
+    overflow: hidden;
+    font-size: 12px;
+    top: 50.05%;
+    left: 57.35294%;
+  }
+  .product-sku3 {
+    width: 196px;
+    height: 17.424px;
+    position: absolute;
+    overflow: hidden;
+    font-size: 12px;
+    top: 50.05%;
+    left: 63.0719%;
+  }

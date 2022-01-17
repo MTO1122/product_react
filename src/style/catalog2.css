@@ -1,0 +1,32 @@
+.containers{
+    width: 100%;
+    height: 100%;
+}
+.bg-toptitle{
+  position: absolute;
+  top: 1.26%;
+  left: 50%;
+  width: 306px;
+  height: 87.12px;
+  background-color: #005184;
+}
+.containers .page_title {
+    position: absolute;
+    top: 2%;
+    left: 54%;
+    width: 266px;
+    height: 69.2px;
+    color: #fff;
+    font-size: 15px;
+  }
+
+.zine_page_num {
+    position: absolute;
+    top: 101%;
+    left: 96%;
+    width: 20px;
+    height: 31.68px;
+    font-size:14px;
+    color: #005184;
+
+  }

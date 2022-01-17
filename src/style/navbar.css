@@ -1,0 +1,38 @@
+.topbar-fixed{
+  background-image: linear-gradient(rgb(78, 78, 78), rgb(32, 32, 32));
+  height:45px;
+  top: 0;
+  position:fixed;
+  width:100%;
+  z-index: 1000;
+  margin: 0;
+}
+.topbar-fixed .buttons {
+    flex: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    top: 0;
+
+  }
+.topbar-fixed a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 0;
+    padding: 5px 30px;
+  }
+.topbar-fixed a:hover{
+    color:white;
+    background-color:rgb(53, 52, 52);
+}
+.topbar-fixed a i{
+    padding:8px;
+    font-size:18px;
+}
+.btn-view.active{
+  background-color: #262626;
+  color:#fff;
+}
